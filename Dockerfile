@@ -1,2 +1,2 @@
-FROM node:8.10.0
+FROM node:latest
 RUN apt-get update && apt-get -y install rsync
